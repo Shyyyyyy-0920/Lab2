@@ -16,6 +16,6 @@ int main(void)
         printf("%f\n", back(queue));
     }
 
-    queue_free(queue);
+    another_queue_free(&queue);
     return 0;
 }
